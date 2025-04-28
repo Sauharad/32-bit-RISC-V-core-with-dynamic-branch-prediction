@@ -2,9 +2,9 @@
 
 This project is an RTL implementation of a 32 bit RISC V processor core with the Integer (I) instruction set, 5 stage pipelined architecture and 1 level speculative branch execution.
 
-RISC V is an Instruction Set Architecture (ISA) that has gaiend popularity in the recent years due to its open source documentation and ease of design.
+RISC V is an Instruction Set Architecture (ISA) that has gained popularity in recent years due to its open source documentation.
 
-32 Bit RISC V consists of a load-store architecutre with a register file of 32 registers of 32 bit width. Only load and store instructions directly access the memory, otherwise data is read from or written to the register file.
+A 32 Bit RISC V consists of a load-store architecutre with a register file of 32 registers of 32 bit width. Only load and store instructions directly access the memory, otherwise data is read from or written to the register file.
 
 The design here consists of two main modules connected at the top level, the datapath and the control unit.
 
